@@ -180,19 +180,26 @@ input:checked + .slider:before {
     color: var(--clr-light);
 }
 
+.about-container {
+    margin: auto;
+}
+
+.about-container h1 {
+    margin: 0 0 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
 .about-text {
     margin: auto;
+    text-align: left;
     max-width: 800px;
 }
 
-.about-text h1 {
-    margin: 0;
-    text-align: center;
-}
-
-.about-text p {
-    text-align: left;
-    margin-top: 1rem;
+@media (min-width: 700px) {
+    .about-container h1 {
+        font-size: 3.3rem;
+    }
 }
 
 /* Carousel Section */
