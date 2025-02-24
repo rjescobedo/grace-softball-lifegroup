@@ -18,6 +18,12 @@ function updateLessons() {
     languageLabel.textContent = language === 'en' ? 'English' : 'Español';
 
     lessonList.innerHTML = ''; // Clear existing content
+    if (lessons.length === 1) {
+        lessonList.classList.add('d-flex', 'justify-content-center'); // Center single card
+    } else {
+        lessonList.classList.remove('d-flex', 'justify-content-center'); // Reset if more than one
+        lessonList.classList.add('row', 'g-4'); // Apply Bootstrap grid
+    }
 
     // Loop through lessons and create cards for each lesson in the correct language
     lessons.forEach((lesson, index) => {
@@ -51,15 +57,16 @@ function getLessonData(lesson, language) {
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">${lesson.title[language]} - ${lesson.date}</h5>
+                        <h5 class="modal-title">${lesson.title[language]}</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p><strong>${language === 'en' ? 'Verse' : 'Versículo'}:</strong> "${lesson.verse[language]}" - ${lesson.chapter}</p>
-                        <h5 class="modal-title">${language === 'en' ? 'Key Takeaways' : 'Puntos Clave'}</h5>
-                        <ul>
+                        <p><strong>${language === 'en' ? 'Bible Chapter' : 'Capítulo Bíblico'}:</strong> ${lesson.chapter}</p>
+                        <p><strong>${language === 'en' ? 'Message' : 'Mensaje'}:</strong> ${lesson.message[language]}</p>
+                        <p><strong>${language === 'en' ? 'Key Takeaways' : 'Puntos Clave'}:</strong></p>
+                        <ol>
                             ${lesson.keyTakeaways[language].map(takeaway => `<li>${takeaway}</li>`).join('')}
-                        </ul>
+                        </ol>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">${language === 'en' ? 'Close' : 'Cerrar'}</button>

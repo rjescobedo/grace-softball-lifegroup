@@ -227,6 +227,11 @@ input:checked + .slider:before {
     text-align: left;
 }
 
+.modal-body  {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
 /* Prayer Request Section */
 .prayer-request-section {
     background-color: var(--clr-dark);
