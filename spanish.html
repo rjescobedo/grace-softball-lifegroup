@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo de Vida de Softball Mixto Grace</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="spanish.html">
+                    <img src="img/logo.avif" alt="Logo de un balón de softball, junto a una biblia, en un campo de softball con un hermoso atardecer" width="50" height="50">
+                    Grupo de Vida de Softball Mixto Grace
+                </a>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="spanish.html#about">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="spanish.html#lessons">Lecciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="spanish.html#prayer-request">Petición de Oración</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="spanish.html#location">Ubicación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.grace.one/" target="_blank">Grace</a>
+                        </li>
+                        <li class="nav-item">
+                            <label for="language-toggle" class="switch switch-label">
+                                <input type="checkbox" id="language-toggle" checked>
+                                <span class="slider"></span>
+                            </label>
+                            <span id="language-label">Español</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <!-- Información sobre el grupo -->
+        <section id="about" class="about-section">
+            <div class="about-text">
+                <h1>Sobre el Grupo de Vida de Softball Mixto Grace</h1>
+                <p>¿Buscas una manera divertida y significativa de pasar tu sábado? ¡Nuestro Grupo de Vida de Softball Mixto Grace es más que solo un juego, es una comunidad! Nos reunimos cada sábado para disfrutar de un partido amistoso de softball, elevarnos en oración y crecer juntos en la fe.</p>
+                <p>¡Ya seas un jugador experimentado o solo busques compañerismo, eres bienvenido aquí! Nuestro tiempo juntos es más que solo deportes, se trata de construir amistades, animarnos mutuamente y fortalecer nuestro caminar con Cristo.</p>
+                <p>¡Únete a nosotros para un gran momento de conexión, ánimo y diversión! Trae tu guante, tu corazón para Dios y ¡crezcamos juntos!</p>
+            </div>
+
+            <!-- Carrusel de imágenes -->
+            <div class="carousel-container">
+                <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="img/pic-1.avif" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="5000">
+                        <img src="img/pic-1.avif" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="5000">
+                        <img src="img/pic-2.avif" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Siguiente</span>
+                    </button>
+                  </div>
+            </div>
+        </section>
+
+        <!-- Lecciones Semanales -->
+        <section id="lessons" class="bg-light weekly-lesson-section py-5">
+            <div class="container text-center">
+                <h2 class="mb-3">Discusión Semanal</h2>
+                <p class="lead">¿Nos perdiste la semana pasada? ¡Te tenemos cubierto! Ponte al día con nuestras últimas lecciones y reflexiones a continuación.</p>
+                <!-- Tarjetas -->
+                <div id="lesson-list" class="row mt-4"></div>
+
+                <!-- Modal -->
+                <div id="modal-container" class="modal-container"></div>
+            </div>
+        </section>
+
+        <!-- Peticiones de Oración -->
+        <section id="prayer-request" class="prayer-request-section py-5">
+            <div class="container text-center">
+                <h2 class="mb-3">Petición de Oración</h2>
+                <p class="lead">Creemos en el poder de la oración. Déjanos saber cómo podemos orar por ti.</p>
+        
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10 col-md-8 col-lg-6 mx-auto">
+                        <form name="prayer-form-spanish" class="form bg-light p-4 rounded shadow-sm" data-netlify="true" method="POST">
+                            <div class="form-info mb-3">
+                                <label for="name" class="form-label">Tu Nombre (Opcional)</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Ingresa tu nombre">
+                            </div>
+                    
+                            <div class="form-info mb-3">
+                                <label for="email" class="form-label">Tu Correo Electrónico (Opcional)</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico">
+                            </div>
+                    
+                            <div class="form-info mb-3">
+                                <label for="prayer" class="form-label">Petición de Oración</label>
+                                <textarea class="form-control" id="prayer" name="prayer" rows="4" required placeholder="Escribe tu petición de oración aquí..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-custom">Enviar Petición</button>
+                             <!-- Success and Error Messages -->
+                            <div id="success-message" class="message success" style="display: none;">
+                                <h5>¡Gracias por tu solicitud de oración!</h5>
+                            </div>
+
+                            <div id="error-message" class="message error" style="display: none;">
+                                <h5>Hubo un error con tu envío. Por favor, inténtalo de nuevo más tarde.</h5>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ubicación -->
+        <section id="location" class="location py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="mb-3">Dónde Nos Reunimos</h2>
+                <p class="lead">Únete a nosotros todos los sábados, llueva o truene, para compañerismo, oración y softball. ¡Si no estamos jugando, estamos orando!</p>
+                
+                <div class="mb-3">
+                    <h5>Complejo Deportivo Fall Creek</h5>
+                    <p>9810 Wyatt Shores Dr. Humble, TX 77396</p>
+                </div>
+        
+                <div class="map-container m-auto" style="max-width: 800px; height: 400px;">
+                    <iframe 
+                        width="100%" 
+                        height="100%" 
+                        frameborder="0" 
+                        style="border:0; border-radius: 10px;" 
+                        allowfullscreen 
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCcX8fzEFhiqoFktbJpf0KPaADwwfHthgU&q=9810 Wyatt Shores Dr, Humble, TX 77396">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+     <footer class="footer bg-dark">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="spanish.html">
+                    <img src="img/logo.avif" alt="">
+                </a>
+            </div>
+
+            <!-- Links -->
+             <ul class="footer-list">
+                <li class="footer-list-item">
+                    <a class="footer-list-link" href="https://www.grace.one/" target="_blank">
+                        <img src="img/grace-logo.png" alt="">
+                    </a>
+                </li>
+                <li class="footer-list-item">
+                    <a class="footer-list-link" href="https://groupme.com/join_group/92993152/0mVqXcMe" target="_blank">
+                        <img src="img/groupme-logo.png" alt="">
+                    </a>
+                </li>
+                <li class="footer-list-item">
+                    <a class="footer-list-link" href="https://www.instagram.com/td.softball/" target="_blank">
+                        <img src="img/instagram-logo.png" alt="">
+                    </a>
+                </li>
+             </ul>
+
+            <!-- Created -->
+            <p>Creado por <a class="web-studio-link" href="https://raulwebstudio.com/espanol" target="_blank">Raul's Web Studio</a></p>
+
+        </div>
+
+     </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+<script src="/js/form.js" defer></script>
+<script type="module" src="/js/scripts.js" defer></script>
+<script src="/js/nav.js"></script>
+</body>
+</html>
