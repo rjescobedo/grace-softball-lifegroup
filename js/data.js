@@ -39,3 +39,34 @@ export const lessons = [
         }
     }
 ];
+
+export const photos = [
+    {
+        img: '/img/pic-1.avif',
+        alt: 'A wide view of the field behind homeplate'
+    }, 
+    {
+        img: '/img/pic-2.avif',
+        alt: 'Group picture during the weekly discussion'
+    }, 
+    {
+        img: '/img/pic-3.avif',
+        alt: 'Group photo of everyone in the group from 2024'
+    },
+    {
+        img: '/img/pic-4.avif',
+        alt: 'Several individuals praying'
+    },
+    {
+        img: '/img/pic-5.avif',
+        alt: 'In a circle before playing softball'
+    },
+    {
+        img: '/img/pic-6.avif',
+        alt: 'Several people in a line, leaning over, praying'
+    },
+    {
+        img: '/img/pic-7.avif',
+        alt: 'During the lesson, sharing the gospel, and having good conversations as a group'
+    }
+];

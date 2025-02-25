@@ -205,8 +205,8 @@ input:checked + .slider:before {
 /* Carousel Section */
 .carousel-container {
     margin: auto;
-    max-width: 700px;
-    padding: 1rem;
+    max-width: 800px;
+    padding: 2rem 0;
 }
 
 .carousel-inner {

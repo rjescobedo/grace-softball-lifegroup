@@ -1,7 +1,18 @@
-import { lessons } from '/js/data.js';
+import { lessons, photos } from '/js/data.js';
 
 const lessonList = document.getElementById('lesson-list');
+const carouselInner = document.getElementById('carousel-inner');
+
+carouselInner.innerHTML = '';
 lessonList.innerHTML = '';
+
+// Dynamically add photos to carousel
+photos.forEach((photo, index) => {
+    carouselInner.innerHTML += `
+    <div class="carousel-item ${index === 0 ? 'active' : ''}" data-bs-interval="4000">
+        <img src="${photo.img}" class="d-block w-100" alt="${photo.alt}" style="object-fit: cover; height: 100%;">
+    </div>`;
+});
 
 // Function to get the current language (either 'en' or 'es') based on the language toggle
 function getLanguage() {
