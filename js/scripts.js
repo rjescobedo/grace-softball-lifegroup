@@ -17,26 +17,26 @@ function updateLessons() {
     const languageLabel = document.getElementById('language-label');
     languageLabel.textContent = language === 'en' ? 'English' : 'Español';
 
-    lessonList.innerHTML = ''; // Clear existing content
-    if (lessons.length === 1) {
-        lessonList.classList.add('d-flex', 'justify-content-center'); // Center single card
-    } else {
-        lessonList.classList.remove('d-flex', 'justify-content-center'); // Reset if more than one
-        lessonList.classList.add('row', 'g-4'); // Apply Bootstrap grid
-    }
+    lessonList.innerHTML = ''; // Clear previous content
 
-    // Loop through lessons and create cards for each lesson in the correct language
-    lessons.forEach((lesson, index) => {
-        lessonList.innerHTML += `
-            <div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch">
-                <div class="card mb-4 shadow-sm w-100">
-                    <div class="card-body">
-                        <h5 class="card-title">${lesson.title[language]} - ${lesson.date}</h5>
-                        <p class="card-text">${lesson.shortDescription[language]}</p>
-                        <button class="btn btn-custom read-more-btn" data-index="${index}">${language === 'en' ? 'Read More' : 'Leer Más'}</button>
-                    </div>
+if (lessons.length === 1) {
+    lessonList.classList.add('d-flex', 'justify-content-center'); // Center single card
+} else {
+    lessonList.classList.remove('d-flex', 'justify-content-center'); // Reset if more than one
+    lessonList.classList.add('row', 'g-4'); // Apply Bootstrap grid
+}
+
+lessons.forEach((lesson, index) => {
+    lessonList.innerHTML += `
+        <div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+            <div class="card mb-4 shadow-sm w-100">
+                <div class="card-body">
+                    <h5 class="card-title">${lesson.title[language]} - ${lesson.date}</h5>
+                    <p class="card-text">${lesson.shortDescription[language]}</p>
+                    <button class="btn btn-custom read-more-btn" data-index="${index}">${language === 'en' ? 'Read More' : 'Leer Más'}</button>
                 </div>
-            </div>`;
+            </div>
+        </div>`;
     });
 
     // Add event listeners to dynamically created buttons
