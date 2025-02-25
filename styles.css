@@ -21,13 +21,12 @@ body {
     --clr-light: rgb(255, 255, 255);
     --clr-dark: rgb(28, 28, 28);
     --clr-green: #abed1f;
-    --clr-beige: #ffefb9;
-    --clr-brown: #8b3e1d;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-h4: 1.15rem;
+    --fs-h5: 1.1rem;
     --fs-body: 1rem;
 
     --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25), 0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
@@ -40,6 +39,7 @@ body {
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
         --fs-h4: 1.25rem;
+        --fs-h5: 1.15rem;
         --fs-body: 1.125rem;
     }
 }
@@ -170,7 +170,7 @@ input:checked + .slider:before {
     top: 50%;
     transform: translateY(-50%);
 }
-/* Main */
+
 /* About Section */
 .about-section {
     width: 100%;
@@ -184,22 +184,20 @@ input:checked + .slider:before {
     margin: auto;
 }
 
-.about-container h1 {
-    margin: 0 0 1.5rem;
-    text-align: center;
-    font-size: 2rem;
-}
-
 .about-text {
     margin: auto;
     text-align: left;
     max-width: 800px;
 }
 
-@media (min-width: 700px) {
-    .about-container h1 {
-        font-size: 3.3rem;
-    }
+.about-text h1 {
+    margin: 0 0 1.5rem;
+    text-align: center;
+    font-size: var(--fs-h1);
+}
+
+.about-text p {
+    font-size: var(--fs-body);
 }
 
 /* Carousel Section */
@@ -214,6 +212,18 @@ input:checked + .slider:before {
 }
 
 /* Weekly Lessons */
+.container h2 {
+    font-size: var(--fs-h2);
+}
+
+.container p {
+    font-size: var(--fs-body);
+}
+
+.contain-text {
+    margin: auto;
+    max-width: 700px;
+}
 .lesson-list {
     margin: auto;
     max-width: 500px;
@@ -223,13 +233,26 @@ input:checked + .slider:before {
 }
 
 /* Modals */
+.card {
+    box-shadow: var(--bs);
+}
+
 .modal-content {
     text-align: left;
+}
+
+.modal-title {
+    font-size: var(--fs-h4);
 }
 
 .modal-body  {
     max-height: 400px;
     overflow-y: scroll;
+}
+
+.modal-body li {
+    font-size: var(--fs-body);
+    padding-bottom: 1rem;
 }
 
 /* Prayer Request Section */
@@ -248,6 +271,24 @@ input:checked + .slider:before {
     text-align: left;
     font-weight: bold;
 }
+
+/* Location Section */
+.map-container {
+    max-width: 800px; 
+    height: 400px;
+    box-shadow: var(--bs);
+    border-radius: 10px;
+}
+
+.location-info h4 {
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-bold);
+}
+
+.location-info p {
+    font-size: var(--fs-body);
+}
+
 
 /* Common style for both success and error messages */
 .message {

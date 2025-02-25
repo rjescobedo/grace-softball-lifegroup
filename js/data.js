@@ -4,7 +4,7 @@ export const lessons = [
             en: 'Living in Unity Through Christ',
             es: 'Viviendo en Unidad a Través de Cristo'
         },
-        date: 'Feb. 15',
+        date: '2/15/25',
         shortDescription: {
             en: 'Paul’s encouragement to believers to live in harmony and follow Christ’s example of selflessness.',
             es: 'La exhortación de Pablo a los creyentes a vivir en armonía y seguir el ejemplo de Cristo de entrega.'
@@ -42,10 +42,6 @@ export const lessons = [
 
 export const photos = [
     {
-        img: '/img/pic-1.avif',
-        alt: 'A wide view of the field behind homeplate'
-    }, 
-    {
         img: '/img/pic-2.avif',
         alt: 'Group picture during the weekly discussion'
     }, 
@@ -54,19 +50,15 @@ export const photos = [
         alt: 'Group photo of everyone in the group from 2024'
     },
     {
+        img: '/img/pic-1.avif',
+        alt: 'A wide view of the field behind homeplate'
+    }, 
+    {
         img: '/img/pic-4.avif',
         alt: 'Several individuals praying'
-    },
-    {
-        img: '/img/pic-5.avif',
-        alt: 'In a circle before playing softball'
     },
     {
         img: '/img/pic-6.avif',
         alt: 'Several people in a line, leaning over, praying'
     },
-    {
-        img: '/img/pic-7.avif',
-        alt: 'During the lesson, sharing the gospel, and having good conversations as a group'
-    }
 ];

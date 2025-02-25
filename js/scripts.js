@@ -42,7 +42,8 @@ lessons.forEach((lesson, index) => {
         <div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch">
             <div class="card mb-4 shadow-sm w-100">
                 <div class="card-body">
-                    <h5 class="card-title">${lesson.title[language]} - ${lesson.date}</h5>
+                    <h4 class="card-title">${lesson.title[language]}</h4>
+                    <p><em>${lesson.date}</em></p>
                     <p class="card-text">${lesson.shortDescription[language]}</p>
                     <button class="btn btn-custom read-more-btn" data-index="${index}">${language === 'en' ? 'Read More' : 'Leer Más'}</button>
                 </div>
@@ -68,7 +69,7 @@ function getLessonData(lesson, language) {
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">${lesson.title[language]}</h5>
+                        <h4 class="modal-title">${lesson.title[language]}</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
