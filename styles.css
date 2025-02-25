@@ -277,7 +277,7 @@ input:checked + .slider:before {
     max-width: 800px; 
     height: 400px;
     box-shadow: var(--bs);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .location-info h4 {
