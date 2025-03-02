@@ -65,8 +65,8 @@ function getLessonData(lesson, language) {
     const modalContainer = document.getElementById('modal-container');
 
     modalContainer.innerHTML = `
-        <div class="modal fade" id="lessonModal" tabindex="-1" aria-labelledby="lessonModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+        <div class="modal modal-lg fade" id="lessonModal" tabindex="-1" aria-labelledby="lessonModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h4 class="modal-title">${lesson.title[language]}</h4>
