@@ -86,7 +86,35 @@ export const photos = [
         alt: 'Several individuals praying'
     },
     {
+        img: '/img/pic-5.avif',
+        alt: 'Several people gathered, going over the weekly lesson'
+    },
+    {
         img: '/img/pic-6.avif',
         alt: 'Several people in a line, leaning over, praying'
+    },
+    {
+        img: '/img/pic-7.avif',
+        alt: 'Several people gathered in a circle, listening to Alexis going over the lesson'
+    },
+    {
+        img: '/img/pic-8.avif',
+        alt: 'Father and son celebrating the sons birthday.'
+    },
+    {
+        img: '/img/pic-9.avif',
+        alt: 'One of the members by homeplate ready to bat.'
+    },
+    {
+        img: '/img/pic-10.avif',
+        alt: 'One of the members by homeplate ready to bat. Nice view of the field, pitcher, and several other players.'
+    },
+    {
+        img: '/img/pic-11.avif',
+        alt: 'One of the members in their yellow Bananas jersey swinging his glove.'
+    },
+    {
+        img: '/img/pic-12.avif',
+        alt: 'The life groups prayer board.'
     },
 ];
