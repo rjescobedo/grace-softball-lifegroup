@@ -66,6 +66,18 @@ export const lessons = [
             ]
         }
     },
+    //Coming Soon Object
+    {
+        title: {
+            en: 'The Power of Prayer',
+            es: 'El Poder de la Oración'
+        },
+        date: '3/8/25',
+        shortDescription: {
+            en: 'Coming Soon: James 5:16',
+            es: 'Próximamente: Santiago 5:16'
+        }
+    }
 ];
 
 export const photos = [
