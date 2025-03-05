@@ -74,8 +74,8 @@ export const lessons = [
         },
         date: '3/8/25',
         shortDescription: {
-            en: 'Coming Soon: James 5:16',
-            es: 'Próximamente: Santiago 5:16'
+            en: 'James 5:16',
+            es: 'Santiago 5:16'
         }
     }
 ];
