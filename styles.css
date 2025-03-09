@@ -21,6 +21,7 @@ body {
     --clr-light: rgb(255, 255, 255);
     --clr-dark: rgb(28, 28, 28);
     --clr-green: #abed1f;
+    --clr-green-hover: #93c32b;
 
     --fs-h1: 2.5rem;  /* Reduced from 3rem */
     --fs-h2: 2rem;    /* Reduced from 2.25rem */
@@ -51,9 +52,7 @@ Custom Button */
 }
 
 .btn-custom:hover {
-    background-color: var(--clr-green);
-    color: var(--clr-dark);
-    opacity: .6;
+    background-color: var(--clr-green-hover);
 }
 
 /* Header */
@@ -322,6 +321,7 @@ input:checked + .slider:before {
     margin: 0;
     padding: 0;
     color: var(--clr-light);
+    background-color: var(--clr-dark);
 }
 
 .footer-container {

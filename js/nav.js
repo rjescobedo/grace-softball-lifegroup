@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
             
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
-                const headerOffset = document.querySelector('.your-header-class')?.offsetHeight || 80; // Adjust dynamically
+                const headerOffset = document.querySelector('.your-header-class')?.offsetHeight || 10; // Adjust dynamically
                 const targetPosition = target.getBoundingClientRect().top + window.scrollY - headerOffset;
                 
                 window.history.pushState(null, null, this.getAttribute('href')); // Update URL without jumping

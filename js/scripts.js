@@ -34,7 +34,7 @@ function updateLessons() {
         lessonList.classList.add('d-flex', 'justify-content-center'); // Center single card
     } else {
         lessonList.classList.remove('d-flex', 'justify-content-center'); // Reset if more than one
-        lessonList.classList.add('row', 'g-4'); // Apply Bootstrap grid
+        lessonList.classList.add('row', 'g-4');
     }
     
     lessons.forEach((lesson, index) => {
@@ -85,7 +85,7 @@ function getLessonData(lesson, language) {
                         </ol>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">${language === 'en' ? 'Close' : 'Cerrar'}</button>
+                        <button type="button" class="btn btn-custom" data-bs-dismiss="modal">${language === 'en' ? 'Close' : 'Cerrar'}</button>
                     </div>
                 </div>
             </div>
@@ -97,16 +97,19 @@ function getLessonData(lesson, language) {
 }
 
 // Initial lesson load based on the current language
+// Initial lesson load based on the current language
 updateLessons();
 
 // Event listener for the language toggle
 document.getElementById('language-toggle').addEventListener('change', function () {
-    // Redirect to Spanish page when toggle is checked
-    const language = getLanguage();
-    
-    if (language === 'es') {
-        window.location.href = 'spanish.html';  // Redirect to Spanish version of the page
-    } else {
-        window.location.href = 'index.html';  // Stay on English version
-    }
+    // Allow UI to update before redirecting
+    setTimeout(() => {
+        const language = getLanguage();
+
+        if (language === 'es') {
+            window.location.href = 'spanish.html';  // Redirect to Spanish version of the page
+        } else {
+            window.location.href = 'index.html';  // Stay on English version
+        }
+    }, 100); // Small delay (200ms) to let the UI reflect the toggle change
 });

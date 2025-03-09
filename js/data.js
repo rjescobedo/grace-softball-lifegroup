@@ -129,4 +129,16 @@ export const photos = [
         img: '/img/pic-12.avif',
         alt: 'The life groups prayer board.'
     },
+    {
+        img: '/img/pic-13.avif',
+        alt: 'Nice view of the field with a member about to bat and another pitching.'
+    },
+    {
+        img: '/img/pic-14.avif',
+        alt: 'Someone ready to hit the ball.'
+    },
+    {
+        img: '/img/pic-15.avif',
+        alt: 'Someone ready to hit the ball.'
+    },
 ];
