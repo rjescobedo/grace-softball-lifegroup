@@ -66,16 +66,50 @@ export const lessons = [
             ]
         }
     },
+    {
+        "title": {
+            "en": "The Power of Prayer",
+            "es": "El Poder de la Oración"
+        },
+        "date": "3/8/25",
+        "shortDescription": {
+            "en": "James 5:16 highlights the power of confession and prayer in bringing healing and restoration.",
+            "es": "Santiago 5:16 destaca el poder de la confesión y la oración para traer sanidad y restauración."
+        },
+        "chapter": "James 5:16",
+        "message": {
+            "en": "James 5:16 reminds us of the power of prayer and confession. When we confess our sins to one another and pray for each other, we open the door for healing, both spiritually and physically. This verse highlights the importance of humility, accountability, and the effectiveness of a righteous person's prayer. True transformation happens when we bring our struggles before God and rely on the support of a faith-filled community.",
+            "es": "Santiago 5:16 nos recuerda el poder de la oración y la confesión. Cuando confesamos nuestros pecados unos a otros y oramos los unos por los otros, abrimos la puerta a la sanidad, tanto espiritual como física. Este versículo resalta la importancia de la humildad, la responsabilidad mutua y la eficacia de la oración del justo. La verdadera transformación ocurre cuando presentamos nuestras luchas ante Dios y confiamos en el apoyo de una comunidad llena de fe."
+        },
+        "keyTakeaways": {
+            "en": [
+                "Accountability & Humility – Confessing sins to one another fosters accountability and helps believers remain humble before God and others.",
+                "Healing & Restoration – Confession and prayer bring spiritual, emotional, and even physical healing. Sin can weigh heavily, but bringing it into the light leads to restoration.",
+                "Power of Prayer – The prayers of righteous believers are effective. Interceding for one another strengthens faith and brings about real change.",
+                "Community & Support – Christianity is not meant to be lived in isolation. A strong Christian community provides encouragement, support, and strength to overcome struggles.",
+                "God’s Forgiveness – While confession to others is important, ultimately, God is the one who forgives sins (1 John 1:9). Confessing to others reinforces a repentant heart and strengthens relationships.",
+                "This teaching underscores the importance of vulnerability, intercession, and reliance on both God and the community for growth and healing."
+            ],
+            "es": [
+                "Responsabilidad y Humildad – Confesar los pecados unos a otros fomenta la responsabilidad y ayuda a los creyentes a mantenerse humildes ante Dios y los demás.",
+                "Sanidad y Restauración – La confesión y la oración traen sanidad espiritual, emocional e incluso física. El pecado puede ser una carga pesada, pero sacarlo a la luz conduce a la restauración.",
+                "El Poder de la Oración – Las oraciones de los creyentes justos son efectivas. Interceder los unos por los otros fortalece la fe y produce cambios reales.",
+                "Comunidad y Apoyo – El cristianismo no está destinado a vivirse en aislamiento. Una comunidad cristiana sólida brinda ánimo, apoyo y fortaleza para superar las dificultades.",
+                "El Perdón de Dios – Aunque la confesión a otros es importante, en última instancia, Dios es quien perdona los pecados (1 Juan 1:9). Confesar a otros refuerza un corazón arrepentido y fortalece las relaciones.",
+                "Esta enseñanza subraya la importancia de la vulnerabilidad, la intercesión y la dependencia tanto de Dios como de la comunidad para el crecimiento y la sanidad."
+            ]
+        }
+    },
     //Coming Soon Object
     {
         title: {
-            en: 'The Power of Prayer',
-            es: 'El Poder de la Oración'
+            en: "The Lord Upholds the Oppressed",
+            es: "El Señor Sostiene a los Oprimidos"
         },
-        date: '3/8/25',
+        date: "3/15/25",
         shortDescription: {
-            en: 'James 5:16',
-            es: 'Santiago 5:16'
+            en: "Psalms 146:7",
+            es: "Salmos 146:7"
         }
     }
 ];
