@@ -100,18 +100,46 @@ export const lessons = [
             ]
         }
     },
-    //Coming Soon Object
+    {
+        "title": {
+            "en": "The Lord Upholds the Oppressed",
+            "es": "El Señor Sostiene a los Oprimidos"
+        },
+        "date": "3/15/25",
+        "shortDescription": {
+            "en": "Psalm 146:7 reminds us of God's justice, provision, and liberation for those in need.",
+            "es": "El Salmo 146:7 nos recuerda la justicia, provisión y liberación de Dios para los necesitados."
+        },
+        "chapter": "Psalms 146:7",
+        "message": {
+            "en": "Psalm 146:7 reveals the heart of God as a just, compassionate, and liberating God. He cares deeply for the oppressed, provides for the hungry, and frees those in captivity. As followers of Christ, we are called to embody these same values—advocating for justice, feeding the hungry, and helping people find freedom in Christ.",
+            "es": "El Salmo 146:7 revela el corazón de Dios como un Dios justo, compasivo y liberador. Él se preocupa profundamente por los oprimidos, provee para los hambrientos y libera a los cautivos. Como seguidores de Cristo, estamos llamados a reflejar estos mismos valores: abogar por la justicia, alimentar a los necesitados y ayudar a las personas a encontrar libertad en Cristo."
+        },
+        "keyTakeaways": {
+            "en": [
+                "\"He gives justice to the oppressed\" Meaning: God is deeply concerned about those who are mistreated, marginalized, or wronged. His nature is just, and He actively works to bring justice to those who are oppressed. Application: This verse reminds us that when we face injustice, we can trust that God sees, cares, and will act on our behalf. It also calls believers to stand up for justice and support those who are oppressed. Biblical Example: In Exodus 3:7-8, God heard the cries of the Israelites in Egypt and delivered them from slavery, showing His heart for the oppressed.",
+                "\"And food to the hungry\" Meaning: God provides for those in need, ensuring that the hungry are fed. This provision can come through miracles, natural resources, or through people who are willing to serve others. Application: This verse encourages believers to rely on God for provision and to be the hands and feet of Jesus by feeding and helping those in need. Biblical Example: In Matthew 14:13-21, Jesus fed over 5,000 people with five loaves and two fish, demonstrating God's heart to provide for the hungry.",
+                "\"The Lord frees the prisoners\" Meaning: This refers both literally and spiritually. God has the power to free people from physical captivity, but more importantly, He offers spiritual freedom from sin, bondage, and oppression. Application: This reminds us that no matter what chains may bind us—addiction, fear, shame, or sin—God has the power to set us free. It also challenges believers to advocate for those unjustly imprisoned. Biblical Example: In Acts 16:25-26, Paul and Silas were miraculously freed from prison through an earthquake after they prayed and sang to God. This shows God’s power to release those in bondage."
+            ],
+            "es": [
+                "\"Él hace justicia a los oprimidos\" Significado: Dios se preocupa profundamente por aquellos que son maltratados, marginados o agraviados. Su naturaleza es justa y Él actúa para traer justicia a los oprimidos. Aplicación: Este versículo nos recuerda que cuando enfrentamos injusticias, podemos confiar en que Dios ve, se preocupa y actuará en nuestro favor. También llama a los creyentes a defender la justicia y apoyar a los oprimidos. Ejemplo bíblico: En Éxodo 3:7-8, Dios escuchó el clamor de los israelitas en Egipto y los liberó de la esclavitud, mostrando Su corazón por los oprimidos.",
+                "\"Y da pan a los hambrientos\" Significado: Dios provee para los necesitados, asegurando que los hambrientos sean alimentados. Esta provisión puede venir a través de milagros, recursos naturales o mediante personas dispuestas a servir a otros. Aplicación: Este versículo anima a los creyentes a confiar en Dios para la provisión y a ser las manos y pies de Jesús al alimentar y ayudar a los necesitados. Ejemplo bíblico: En Mateo 14:13-21, Jesús alimentó a más de 5,000 personas con cinco panes y dos peces, demostrando el corazón de Dios para proveer a los hambrientos.",
+                "\"El Señor libera a los prisioneros\" Significado: Esto se refiere tanto de manera literal como espiritual. Dios tiene el poder de liberar a las personas de la cautividad física, pero, más importante aún, ofrece libertad espiritual del pecado, la esclavitud y la opresión. Aplicación: Nos recuerda que, sin importar las cadenas que nos aten—adicción, miedo, vergüenza o pecado—Dios tiene el poder de liberarnos. También desafía a los creyentes a abogar por los injustamente encarcelados. Ejemplo bíblico: En Hechos 16:25-26, Pablo y Silas fueron liberados milagrosamente de la prisión mediante un terremoto después de orar y alabar a Dios, demostrando el poder de Dios para liberar a los cautivos."
+            ]
+        }
+    },
+    //Coming Soon
     {
         title: {
-            en: "The Lord Upholds the Oppressed",
-            es: "El Señor Sostiene a los Oprimidos"
+            en: "Living with Purpose",
+            es: "Viviendo con Propósito"
         },
-        date: "3/15/25",
+        date: "3/22/25",
         shortDescription: {
-            en: "Psalms 146:7",
-            es: "Salmos 146:7"
+            en: " 1 Peter 4:7-11",
+            es: "1 Pedro 4:7-11"
         }
-    }
+    },
 ];
 
 export const photos = [
