@@ -258,4 +258,16 @@ export const photos = [
         img: '/img/pic-20.avif',
         alt: 'Someone ready to hit the ball.'
     },
+    {
+        img: '/img/pic-21.avif',
+        alt: 'Someone ready to hit the ball.'
+    },
+    {
+        img: '/img/pic-22.avif',
+        alt: 'Someone ready to hit the ball.'
+    },
+    {
+        img: '/img/pic-23.avif',
+        alt: 'Someone ready to hit the ball.'
+    },
 ];
