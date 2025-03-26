@@ -128,16 +128,51 @@ export const lessons = [
             ]
         }
     },
+    {
+        "title": {
+            "en": "Living with Purpose",
+            "es": "Viviendo con Propósito"
+        },
+        "date": "3/22/25",
+        "shortDescription": {
+            "en": "A call to live with urgency, love deeply, serve selflessly, and glorify God in everything.",
+            "es": "Un llamado a vivir con urgencia, amar profundamente, servir desinteresadamente y glorificar a Dios en todo."
+        },
+        "chapter": "1 Peter 4:7-11",
+        "message": {
+            "en": "As believers, we are called to live with purpose, recognizing that our time on earth is limited. Peter reminds us to be watchful, remain in prayer, love one another deeply, and use the gifts God has given us to serve others. By doing so, we reflect God's grace and bring glory to Him. This passage encourages us to align our lives with His will, making every action an opportunity to glorify Christ.",
+            "es": "Como creyentes, estamos llamados a vivir con propósito, reconociendo que nuestro tiempo en la tierra es limitado. Pedro nos recuerda que debemos estar vigilantes, permanecer en oración, amarnos profundamente y usar los dones que Dios nos ha dado para servir a los demás. Al hacerlo, reflejamos la gracia de Dios y le damos gloria. Este pasaje nos anima a alinear nuestras vidas con Su voluntad, haciendo de cada acción una oportunidad para glorificar a Cristo."
+        },
+        "keyTakeaways": {
+            "en": [
+                "Verse 7 – Be Watchful and Pray: \"The end of all things is near. Therefore be alert and of sober mind so that you may pray.\" Peter reminds believers that the return of Christ is imminent, encouraging them to live with urgency. \"Be alert and of sober mind” means staying spiritually awake, clear-headed, and self-disciplined. Prayer is essential, and a focused, undistracted mind strengthens our connection with God.",
+                "Verse 8 – Love Covers Sin: \"Above all, love each other deeply, because love covers over a multitude of sins.\" Love is the most important virtue in Christian relationships (1 Corinthians 13:13). \"Covers over a multitude of sins” means love leads to forgiveness, grace, and reconciliation rather than bitterness.",
+                "Verse 9 – Practice Hospitality: \"Offer hospitality to one another without grumbling.\" Hospitality was vital in the early church and remains a key Christian duty. True hospitality is generous and joyful, not reluctant or complaining.",
+                "Verse 10 – Use Your Gifts for Others: \"Each of you should use whatever gift you have received to serve others, as faithful stewards of God’s grace in its various forms.\" Every believer has spiritual gifts from God. These gifts should be used selflessly to build up others and reflect God’s grace.",
+                "Verse 11 – Serve with God’s Strength for His Glory: \"If anyone speaks, they should do so as one who speaks the very words of God. If anyone serves, they should do so with the strength God provides, so that in all things God may be praised through Jesus Christ.\" Whether speaking or serving, believers must rely on God’s wisdom and power. The ultimate goal is to glorify God in everything.",
+                "Conclusion: This passage calls Christians to live with urgency, love deeply, serve selflessly, and glorify God in all they do."
+            ],
+            "es": [
+                "Versículo 7 – Sean vigilantes y oren: \"El fin de todas las cosas se acerca. Sed, pues, sobrios y velad en oración.\" Pedro recuerda a los creyentes que el regreso de Cristo es inminente, animándolos a vivir con urgencia. \"Sed sobrios y velad\" significa mantenerse espiritualmente despiertos, con una mente clara y disciplinada. La oración es esencial, y una mente enfocada fortalece nuestra conexión con Dios.",
+                "Versículo 8 – El amor cubre el pecado: \"Sobre todo, ámense los unos a los otros profundamente, porque el amor cubre multitud de pecados.\" El amor es la virtud más importante en las relaciones cristianas (1 Corintios 13:13). \"Cubre multitud de pecados\" significa que el amor nos lleva al perdón, la gracia y la reconciliación en lugar de la amargura.",
+                "Versículo 9 – Practiquen la hospitalidad: \"Hospédense los unos a los otros sin quejarse.\" La hospitalidad era vital en la iglesia primitiva y sigue siendo un deber cristiano clave. La verdadera hospitalidad es generosa y alegre, no con reservas ni quejas.",
+                "Versículo 10 – Usen sus dones para servir a otros: \"Cada uno ponga al servicio de los demás el don que haya recibido, como buenos administradores de la gracia de Dios en sus diversas formas.\" Cada creyente ha recibido dones espirituales de Dios. Estos dones deben usarse de manera desinteresada para edificar a los demás y reflejar la gracia de Dios.",
+                "Versículo 11 – Sirvan con la fuerza de Dios para su gloria: \"El que hable, hable como quien pronuncia palabras de Dios; el que presta algún servicio, hágalo con la fortaleza que Dios le da, para que en todo Dios sea alabado por medio de Jesucristo.\" Ya sea hablando o sirviendo, los creyentes deben depender de la sabiduría y el poder de Dios. El objetivo final es glorificar a Dios en todo.",
+                "Conclusión: Este pasaje llama a los cristianos a vivir con urgencia, amar profundamente, servir desinteresadamente y glorificar a Dios en todo lo que hagan."
+            ]
+        }
+    },
+
     //Coming Soon
     {
         title: {
-            en: "Living with Purpose",
-            es: "Viviendo con Propósito"
+            en: "The Work of the Holy Spirit",
+            es: "La Obra del Espíritu Santo"
         },
-        date: "3/22/25",
+        date: "3/29/25",
         shortDescription: {
-            en: " 1 Peter 4:7-11",
-            es: "1 Pedro 4:7-11"
+            en: "John 15:26-27",
+            es: "Juan 15:26-27"
         }
     },
 ];
