@@ -162,20 +162,49 @@ export const lessons = [
             ]
         }
     },
-
-    //Coming Soon
     {
-        title: {
-            en: "The Work of the Holy Spirit",
-            es: "La Obra del Espíritu Santo"
+        "title": {
+            "en": "Called to Testify: Empowered by the Spirit",
+            "es": "Llamados a Testificar: Empoderados por el Espíritu"
         },
-        date: "3/29/25",
-        shortDescription: {
-            en: "John 15:26-27",
-            es: "Juan 15:26-27"
+        "date": "3/29/25",
+        "shortDescription": {
+            "en": "Testimony is both a gift and a calling—rooted in the Holy Spirit’s work and our personal experience with Jesus.",
+            "es": "El testimonio es tanto un don como un llamado, arraigado en la obra del Espíritu Santo y nuestra experiencia personal con Jesús."
+        },
+        "chapter": "John 15:26-27",
+        "message": {
+            "en": "Jesus calls us to be His witnesses, but He does not leave us to do it alone. The Holy Spirit is our Helper, empowering us to testify with boldness and truth. Just as the disciples spoke from their personal experience with Christ, we too share from our encounters with Him—how He has changed our lives, answered prayers, and revealed His love. May we embrace this calling with joy, knowing that God is with us, guiding and strengthening us every step of the way.",
+            "es": "Jesús nos llama a ser Sus testigos, pero no nos deja hacerlo solos. El Espíritu Santo es nuestro Consolador, capacitándonos para testificar con valentía y verdad. Así como los discípulos hablaron desde su experiencia personal con Cristo, nosotros también compartimos desde nuestros encuentros con Él: cómo ha transformado nuestras vidas, respondido oraciones y revelado Su amor. Que abracemos este llamado con gozo, sabiendo que Dios está con nosotros, guiándonos y fortaleciéndonos en cada paso del camino."
+        },
+        "keyTakeaways": {
+            "en": [
+                "The Spirit’s Testimony: God Equips Us - Start with verse 26: The \"Helper,\" the Holy Spirit, comes from the Father and Son to testify about Jesus. This shows that testimony isn’t just a human effort—it begins with God. The Spirit of truth ensures that what we share is grounded in reality, not opinion or falsehood. We don’t testify alone. The Spirit guides us, gives us courage, and points people to Jesus through us.",
+                "Our Testimony: A Personal Witness - Move to verse 27: The disciples are called to bear witness because they were with Jesus \"from the beginning.\" Their testimony flows from what they’ve seen and known personally. Connect this to today. While we weren’t with Jesus physically, our \"beginning\" is our encounter with Him—through salvation, answered prayers, or life change.",
+                "The Partnership: Spirit and Us Together - Tie the verses together: The Spirit testifies, and we \"also\" bear witness. It’s a collaboration. The disciples didn’t just sit back; they spoke, acted, and lived out their faith, empowered by the Spirit.",
+                "Closing: The same Spirit who filled the disciples at Pentecost is with us today. Like them, we’re entrusted to share Jesus with the world—not out of duty, but out of love and gratitude for what He’s done. This passage works beautifully because it balances God’s initiative (the Spirit’s role) with our response (bearing witness). It’s encouraging—showing we’re not alone in testifying—and practical, rooting our message in real experience."
+            ],
+            "es": [
+                "El Testimonio del Espíritu: Dios Nos Capacita - Comienza con el versículo 26: El \"Consolador,\" el Espíritu Santo, viene del Padre y del Hijo para testificar acerca de Jesús. Esto muestra que el testimonio no es solo un esfuerzo humano, sino que comienza con Dios. El Espíritu de verdad asegura que lo que compartimos está basado en la realidad, no en opiniones o falsedades. No testificamos solos. El Espíritu nos guía, nos da valor y dirige a las personas hacia Jesús a través de nosotros.",
+                "Nuestro Testimonio: Un Testigo Personal - Avanza al versículo 27: Los discípulos son llamados a dar testimonio porque estuvieron con Jesús \"desde el principio.\" Su testimonio surge de lo que han visto y conocido personalmente. Conéctalo con el presente. Aunque no estuvimos con Jesús físicamente, nuestro \"principio\" es nuestro encuentro con Él, ya sea a través de la salvación, oraciones contestadas o cambios en nuestra vida.",
+                "La Colaboración: El Espíritu y Nosotros Juntos - Une los versículos: El Espíritu testifica, y nosotros \"también\" damos testimonio. Es una colaboración. Los discípulos no se quedaron de brazos cruzados; hablaron, actuaron y vivieron su fe, empoderados por el Espíritu.",
+                "Conclusión: El mismo Espíritu que llenó a los discípulos en Pentecostés está con nosotros hoy. Como ellos, tenemos el encargo de compartir a Jesús con el mundo, no por obligación, sino por amor y gratitud por lo que Él ha hecho. Este pasaje es hermoso porque equilibra la iniciativa de Dios (el papel del Espíritu) con nuestra respuesta (dar testimonio). Es alentador, porque nos muestra que no estamos solos en esta tarea, y práctico, ya que fundamenta nuestro mensaje en una experiencia real."
+            ]
         }
     },
-];
+    //Coming Soon
+    {
+        "title": {
+            "en": "Bless the Lord, O My Soul: Remembering His Goodness",
+            "es": "Bendice, alma mía, al Señor: Recordando Su Bondad"
+        },
+        "date": "4/5/25",
+        "shortDescription": {
+            "en": "Psalm 103:2-5",
+            "es": "Salmo 103:2-5"
+        }
+    }
+]
 
 export const photos = [
     {
